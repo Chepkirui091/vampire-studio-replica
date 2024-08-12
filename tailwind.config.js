@@ -15,7 +15,13 @@ module.exports = {
       colors: {
         topBar: {
           DEFAULT: "#593e7e",
-        }
+        },
+        section2: {
+          DEFAULT: "#6dbfb8",
+        },
+        menuBar: {
+          DEFAULT: "#d4affb",
+}
       },
       fontFamily: {
         topBar: ['Carrois Gothic SC', 'sans-serif'],

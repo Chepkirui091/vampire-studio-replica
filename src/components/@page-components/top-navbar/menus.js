@@ -1,21 +1,21 @@
 const Menus = () => {
     return (
         <nav className="p-4">
-            <ul className="flex space-x-4 font-topBar text-lg text-white">
+            <ul className="flex flex-col md:flex-row md:space-x-6 text-lg text-white whitespace-nowrap">
                 <li>
-                    <a href="/" className="">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/about" className="">About us</a>
+                    <a href="/about">About us</a>
                 </li>
                 <li>
-                    <a href="/services" className="">Our Services</a>
+                    <a href="/services" >Our Services</a>
                 </li>
                 <li>
-                    <a href="/blog" className="">Blog</a>
+                    <a href="/blog">Blog</a>
                 </li>
                 <li>
-                    <a href="/contact" className="">Contact us</a>
+                    <a href="/contact">Contact us</a>
                 </li>
             </ul>
         </nav>
