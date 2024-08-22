@@ -13,8 +13,7 @@ const Section4 = () => {
     ];
 
     return (
-        <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: 'url(/static/main.jpg)' }}>
-            <div className="absolute inset-0 bg-black opacity-50"></div> {/* Thin dark overlay */}
+            <div className="bg-black opacity-50 min-h-screen">
             <div className="relative flex justify-center items-center h-[75vh]">
                 <div className="container mx-auto py-12 px-4 lg:px-8 text-white">
                     <h2 className="text-4xl font-bold text-center mb-4">Our Creative Process</h2>

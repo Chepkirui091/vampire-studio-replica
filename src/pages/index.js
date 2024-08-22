@@ -10,7 +10,7 @@ import Footer from "@/components/@page-components/dashboard/footer";
 const Home = () => {
     return (
         <>
-            <div className="font-topBar">
+            <div className="font-topBar min-h-screen bg-cover bg-center bg-fixed" style={{ backgroundImage: 'url(/static/main.jpg)' }}>
                 <HomePage />
                 <Section2 />
                 <Section3 />

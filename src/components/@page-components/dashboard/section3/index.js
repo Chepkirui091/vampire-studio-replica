@@ -19,11 +19,10 @@ const Section3 = () => {
             </Head>
 
             <div
-                className="min-h-screen p-4 bg-cover bg-center bg-fixed"
-                style={{ backgroundImage: 'url(/static/main.jpg)' }}
+                className="min-h-screen"
+
             >
-                <h1 className="text-3xl font-bold text-center text-white mb-8">Section 3</h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-28">
                     {videoIds.map((id, index) => (
                         <div key={index} className="relative pb-[56.25%]">
                             <iframe
