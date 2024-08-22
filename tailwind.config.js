@@ -17,7 +17,7 @@ module.exports = {
           DEFAULT: "#593e7e",
         },
         section2: {
-          DEFAULT: "#6dbfb8",
+          DEFAULT: "#78b1c7",
         },
         menuBar: {
           DEFAULT: "#d4affb",
